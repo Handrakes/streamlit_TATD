@@ -34,10 +34,23 @@ st.markdown(
         display: table;
         clear: both;
     }
+    .cocktail-left{
+        text-align: left;
+        float: left;
+        font-size : 1.1em;
+        margin-top: 0.5em;
+    }
+    .cocktail-right {
+        text-align: right;
+        float: right;
+        font-size : 1.1em;
+        margin-top : 0.5em;
+    }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 st.title('SIGNATURE')
 st.markdown('<div class="left-corner">레몬드랍 * 6</div><div class="right-corner">2.5</div>', unsafe_allow_html=True)
@@ -55,3 +68,11 @@ st.image('images/jungle-bird.jpg')
 st.markdown('<div class="left-corner">PASSAT</div><div class="right-corner">1.5</div>', unsafe_allow_html=True)
 st.markdown('<div class="space">패션 후르츠, 리치맛 칵테일 10%</div>', unsafe_allow_html=True)
 st.image('images/passats.jpg')
+
+st.title('Cocktails')
+st.markdown('<div class="cocktail-left">gin & tonic 진토닉 8%</div><div class="cocktail-right">1.0</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">malibu orange 말리부 오렌지 5% </div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">kahula milk 깔루아 밀크 4%</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">tequila sunrise 데킬라 선라이즈 8%</div><div class="cocktail-right">1.1</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left"> </div><div class="cocktail-right">1.0</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left"> </div><div class="cocktail-right">1.0</div>', unsafe_allow_html=True)
