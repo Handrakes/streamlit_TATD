@@ -16,7 +16,7 @@ st.set_page_config(
 )
 # Set up main page
 col1, col2 = st.columns((6, 1))
-col1.title("TATD : To ALL the Dreamers_//")
+col1.title("TATD : To ALL the Dreamers")
 st.image("images/back_bar.jpeg")
 #col2.image("imagess/snowflake_dcr_multi.png", width=120)
 #st.sidebar.title(" TATD ")
