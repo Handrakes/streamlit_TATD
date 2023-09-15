@@ -14,6 +14,7 @@ st.set_page_config(
         'About': "This app generates scripts for data clean rooms!"
     }
 )
+
 # Set up main page
 col1, col2 = st.columns((6, 1))
 col1.title("TATD : To ALL the Dreamers")
