@@ -10,7 +10,6 @@ st.markdown(
 )
 
 
-
 st.markdown(
     """
     <style>
