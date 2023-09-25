@@ -50,7 +50,7 @@ st.markdown(
     .cocktail-right {
         text-align: right;
         float : right;
-        font-size : 1.1em;
+        font-size : 1.0em;
         margin-top : 0.5em;
     }
     .body{
@@ -59,6 +59,13 @@ st.markdown(
     .content{
         text-align : justify;
         font-size : 0.6em;
+        margin-top : 0.5em;
+    }
+    .category{
+        text-align : justify;
+        font-size : 1.8em;
+        font-weight : bold;
+        margin-bottom : 1em;
         margin-top : 0.5em;
     }
     </style>
@@ -128,3 +135,26 @@ st.markdown('<div class="cocktail-left">jungle bird 정글버드 18%<span class 
 st.markdown('<div class="cocktail-left">rusty nail 러스티네일 40%<span class = "content"> 꿀 리큐르와 위스키의 조합</span></div>', unsafe_allow_html=True)
 st.markdown('<div class="cocktail-left">french connection 프렌치커넥션 36%</div><div class="cocktail-right">1.8</div>', unsafe_allow_html=True)
 st.markdown('<div class="cocktail-left">side car 사이드 카 30% <span class = "content"> 꼬냑과 레몬의 조합 </span></div>', unsafe_allow_html=True)
+
+st.markdown('<div class ="category"> Highball </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Suntory highball 산토리 하이볼</div><div class = "cocktail-right">1.2 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Jameson highball 제임슨 하이볼</div><div class = "cocktail-right">1.2 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Jimbeam highball 짐빔 하이볼</div><div class = "cocktail-right">1.2 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Jonnie highball 조니 하이볼</div><div class = "cocktail-right">1.2 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Fireball highball 파이어볼 하이볼 </div><div class = "cocktail-right">1.3 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Monkey Shoulder highball 몽키숄더 하이볼</div><div class = "cocktail-right">1.6 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Talisker highball 탈리스커 하이볼 </div><div class = "cocktail-right">1.8 </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Laphroaig highball 라프로익 하이볼 </div><div class = "cocktail-right">2.0 </div>', unsafe_allow_html = True)
+
+
+st.markdown('<div class ="category"> Non-alcholic </div>', unsafe_allow_html = True)
+st.markdown('<div class="cocktail-left">Coke 코카콜라 </div><div class="cocktail-right">0.4</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Coke-Zero 코카콜라 제로</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Sprite 스프라이트</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Ginger Ale 진저에일</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Tonic Water 토닉 워터</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Club Soda 클럽 소다</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Grapefruit Sparkling 자몽 스파클링 </div><div class="cocktail-right">0.9</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Cinderella 신데렐라 </div><div class="cocktail-right">1.0</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Lemon Squash 레몬 스쿼시</div><div class="cocktail-right">1.0</div>', unsafe_allow_html=True)
+st.markdown('<div class="cocktail-left">Virgin Mojito 버진 모히또 </div><div class="cocktail-right">1.2</div>', unsafe_allow_html=True)
