@@ -186,7 +186,7 @@ st.markdown('<div class="w-left">Jonnie Walker Black 조니워커 블랙 </div><
 st.markdown('<div class="w-left">Jonnie Walker Green 조니워커 그린 </div><div class = "w-right"> 1.4 / 24.0 </div>', unsafe_allow_html = True)
 st.markdown('<div class="w-left">Jonnie Walker Blue 조니워커 블루 </div><div class = "w-right"> 3.0 / 55.0 </div>', unsafe_allow_html = True)
 st.markdown('<div class="w-left">Monkey Shoulder 몽키 숄더</div><div class = "w-right"> 1.1 / 17.0 </div>', unsafe_allow_html = True)
-st.markdown('<div class="w-left">Rumreek 10Y CS</div><div class = "w-right"> 2.2 / 37.0 </div>', unsafe_allow_html = True)
+st.markdown('<div class="w-left">Rumreek 10Y CS 럼릭 10Y CS</div><div class = "w-right"> 2.2 / 37.0 </div>', unsafe_allow_html = True)
 st.markdown('<div class="w-left">Royal Salute 21Y 로얄 살루트 21Y </div><div class = "w-right"> 2.6 / - </div>', unsafe_allow_html = True)
 #st.markdown('<div class="w-left"> </div><div class = "w-right"> / </div>', unsafe_allow_html = True)
 #st.markdown('<div class="w-left"> </div><div class = "w-right"> / </div>', unsafe_allow_html = True)
